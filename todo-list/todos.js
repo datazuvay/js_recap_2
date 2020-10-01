@@ -11,7 +11,7 @@ function addTodo() {
 
   const todoObject = {
     // id: todoList.length * 5,
-    id: todoList.length * 5,
+    id: todoList.length,
     todoText: todoText,
     isDone: false,
   };
@@ -49,3 +49,4 @@ function displayTodos() {
     todoListElement.appendChild(listElement);
   });
 }
+
