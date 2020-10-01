@@ -10,7 +10,8 @@ function addTodo() {
   const todoText = document.querySelector("#myInput").value;
 
   const todoObject = {
-    id: todoList.length,
+    // id: todoList.length * 5,
+    id: todoList.length * 5,
     todoText: todoText,
     isDone: false,
   };
